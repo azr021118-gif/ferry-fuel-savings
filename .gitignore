@@ -1,0 +1,30 @@
+# Only the computation code is published. Data, outputs, figures and plotting scripts stay local.
+/*
+!/.gitignore
+!/README.md
+!/requirements-revision.txt
+!/project_paths.py
+!/fuel_models.py
+!/build_step1_dataset.py
+!/build_step2_segments.py
+!/build_step3_voyage_energy.py
+!/build_step4_main_voyage_optimizer.py
+!/build_step6_segment_fuel_model.py
+!/build_step6b_model_comparison.py
+!/build_step6c_rpm_models.py
+!/build_step6c_rpm_and_temporal_validation.py
+!/build_step7_main_voyage_clustering.py
+!/build_step8_fuel_model_route_optimizer.py
+!/fetch_environment_data.py
+!/build_environment_covariates.py
+!/analyze_maneuvering_phases.py
+!/analyze_maneuvering_indicator_sensitivity.py
+!/analyze_slack_and_weather.py
+!/build_revision_rpm_setpoint_figdata.py
+!/build_revision_bootstrap_saving.py
+!/build_revision_budget_table.py
+!/nautical chart/
+/nautical chart/*
+!/nautical chart/enc_route_check.py
+!/nautical chart/requirements-enc.txt
+__pycache__/
